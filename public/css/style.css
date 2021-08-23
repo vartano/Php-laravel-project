@@ -1,0 +1,588 @@
+    
+
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&family=Lobster&display=swap');
+    *{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+/*navbar section starts*/
+#logo {
+	font-size: 25px;
+	letter-spacing: 5px;
+	margin-left:15px;
+    font-family:Lobster;
+	margin-top:5px;
+}
+
+#navbar{
+ 	display: flex;
+ 	background-color: rgba(215, 215, 139, 0.48);
+ 	justify-content: space-between;
+
+}
+
+#navbarNavAltMarkup{
+	margin-left:200px;
+}
+
+.navbar-toggler{
+	border:white;
+}
+
+#span{
+	color:black;
+	
+}
+
+#span i{
+	font-size: 30px
+}
+
+
+#navbarNavAltMarkup a{
+	display: block;
+	text-decoration:none;
+	font-size: 18px;
+	text-transform: uppercase;
+	color:rgba(210, 25, 16, 0.66);
+}
+
+#navbarNavAltMarkup a:hover {
+    border-bottom:3px solid lightblue;
+}
+
+#navbarNavAltMarkup i{
+	color:grey;
+	margin:0 5px;
+}
+/*navbar section ends*/
+
+/*setting navbar starts*/
+.set{
+	margin-right:10px;
+}
+
+.setnavbar{
+	height:900px;
+	width:220px;
+    padding-left: 10px;
+    padding-top:10px;
+    border-right:6px solid white;
+    position: relative;
+    background-color: rgba(210, 25, 16, 0.39);
+}
+
+.setnavbar ul{
+	justify-content: center;
+	list-style-type: none;
+	margin-right:20px;
+	margin-top: 50px
+}
+
+.setnavbar ul li{
+	padding:1px 0;
+}
+
+.setnavbar ul li a{
+	display: block;
+	text-decoration:none;
+	color:white;
+	background:gray;
+	padding:6px;
+	width:100%;
+	height:100%;
+}
+
+.setnavbar ul li a:hover{
+	
+	background:black;
+}
+
+.setnavbar h3{
+	color:white;
+	font-family:Lobster;
+}
+
+/*setting navbar ends*/
+
+/*email section starts*/
+
+.cmail{
+	position:absolute;
+	top:0;
+	width:83.7%;
+	margin-left: 220px;
+}
+
+.cmail h3{
+   	padding-left:30px;
+	color:rgba(210, 25, 16, 0.6);
+	border-bottom:2px solid rgba(210, 25, 16, 0.6);
+	background-color: white;
+}
+
+.cmail h3 span a{
+	text-decoration: none;
+	font-size: 20px;
+	margin-left:10px;
+}
+
+.ttr th{
+	border-bottom:2px solid rgba(210, 25, 16, 0.6);
+	padding:5px 10px;
+	color:grey;
+	background:solid rgba(210, 25, 16, 0.6); 
+}
+
+.ttr1 th{
+	border-bottom:2px solid rgba(210, 25, 16, 0.6);
+	padding:5px 8px;
+	margin-right:10px;
+	color:black; 
+}
+
+/*email section ends*/
+
+/*setting page starts*/
+
+.setting-page{
+	position:absolute;
+	top:20%;
+	left:38%;
+	
+}
+.setting-page h3{
+	border:8px solid white;
+	padding:8px;
+}
+
+.setting-page h4{
+	text-align:center;
+	margin-top: 30px;
+	
+}
+
+.setting-page span{
+	font-family:Lobster;
+	color:rgba(210, 25, 16, 0.6);
+}
+
+.setting-page h4 a{
+	text-decoration:none;
+	cursor: pointer;
+	color:grey;
+}
+
+.setting-page i{
+	color:rgba(210, 25, 16, 0.6);
+}
+
+.back{
+	position:absolute;
+	bottom:20%;
+	left:60%;
+}
+.back h4 a{
+text-decoration:none;
+}
+
+/*setting page ends*/
+
+
+/*employee section  starts*/
+
+.employee{
+	position:absolute;
+	top:0;
+	width:83.7%;
+	margin-left: 220px;
+}
+
+.emp-title h3{
+	margin-top:20px;
+    text-align: center;
+    color:rgba(210, 25, 16, 0.6);
+}
+
+.emp-title span{
+	color:grey;
+	font-family:Lobster;
+}
+
+
+.emp-title h4{
+	margin:20px 0;
+
+}
+
+.emp-title h4 a{
+	text-decoration: none;
+	font-size: 20px;
+	margin-left:10px;
+}
+.forme{
+	margin-bottom: 10px;
+}
+
+.forme label{
+	padding: 3px;
+	background-color:rgba(210, 25, 16, 0.6);
+	color:white;
+	margin-right:3px;
+}
+
+.forme1{
+	border-bottom: 3px solid white;
+	padding-bottom: 8px;
+}
+
+.forme input{
+	padding-left:3px;
+	margin-right:8px;
+}
+
+.forme1 label{
+	padding: 3px;
+	background-color:rgba(210, 25, 16, 0.6);
+	color:white;
+	margin-right:3px;
+}
+
+.forme1 input{
+	padding-left:3px;
+	margin-right:8px;
+}
+
+.emp{
+	position:absolute;
+	top:100%;
+	left:0;
+	margin-left:10px;
+}
+
+.disp-emp{
+	margin-left:10px;
+}
+.ettr th{
+	border-bottom:2px solid rgba(210, 25, 16, 0.6);
+	padding:5px 12px;
+	color:grey;
+	background:solid rgba(210, 25, 16, 0.6); 
+}
+
+
+.ettr1 th{
+	border-bottom:2px solid rgba(210, 25, 16, 0.6);
+	padding:5px 10px;
+	margin-right:10px;
+	color:black; 
+}
+.delete{
+	background:rgba(210, 25, 16, 0.6);
+	padding:3px 10px;
+	color:white;
+	font-weight: bold;
+	border:1px solid rgba(210, 25, 16, 0.6);
+
+}
+
+.update{
+	background:#0d6efd;
+	padding:3px 10px;
+	color:white;
+	font-weight: bold;
+	border:1px solid #0d6efd;
+
+}
+
+.wrap{
+    
+	height:300vh;
+}
+
+/*employee section ends*/
+
+/*main section starts*/
+
+.main{
+	height:600px;
+	background-image: url('../images/rest1.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	opacity: .8;
+}
+
+.main h2{
+	text-align: center;
+	color:white;
+	transform: translate(0%, 600%);
+	border-bottom:ridge;
+	padding-bottom:5px;
+}
+
+.main span{
+	font-family:Lobster;
+}
+
+/*main section ends*/
+
+/*about section starts*/
+.about{
+	width:100%;
+	display: flex;
+	justify-content: space-around;
+	background-color: rgba(210, 25, 16, 0.66);
+}
+
+.about-title{
+	width:40%;
+	align-items: center;
+
+}
+
+.about-title h2{
+	margin-top:50px;
+	color:white ;
+	border:2px solid white;
+	text-align: center;
+}
+
+.about-title p{
+	margin-top:80px;
+	color:white ;
+	border-bottom:2px solid white;
+	color:15px;
+	padding-bottom:10px;
+}
+
+.about-title h3{
+	margin-top:50px;
+	color:white ;
+	border:2px solid white;
+	text-align: center;
+}
+
+.about-title i{
+    margin:30px;
+    color:white ;
+    font-size: 30px
+}
+
+.about-img{
+	background-image: url('../images/about.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	width:500px;
+	height:600px;
+	border-radius:100px;
+	margin:20px 0;
+}
+
+/*about section ends*/
+
+/*our menu starts*/
+.menu-page h3{
+	text-align: center;
+	padding:20px 0;
+	color:grey;
+}
+.menu-page h3 span{
+   font-family:Lobster; 
+   color:rgba(210, 25, 16, 0.66);
+}
+.disp-menu{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.ourmenu{
+	margin-left:25px;
+}
+
+.ourmenu ul{
+	margin:2px 2px;
+	align-items:center;
+	padding:12px;
+}
+.disp-menu ul{
+ list-style-type: none;
+ border-radius:5px;
+}
+
+.disp-menu ul li{
+	color:white;
+	margin-right:3px;
+	text-align: center;
+}
+
+.disp-menu ul li span{
+   margin-left:3px;
+   color:black;
+}
+
+#m-title{
+	font-weight: bold;
+	font-size: 22px;
+	background-color:rgb(236 236 199);
+	border-radius:5px;
+	font-family:Lobster; 
+}
+
+/*our menu ends*/
+
+
+/*contact section starts*/
+
+#contact{
+	display:flex;
+    background-color: lightgrey;
+    justify-content: space-between;
+ 
+
+}
+#contact-img{
+	height:800px;
+	width:600px;
+	background-image: url('../images/cont.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	opacity: .8;
+}
+
+#contact-img h2{
+	margin-top:100px;
+	text-align: center;
+	background-color:white;
+	border: 2px solid white;
+	padding:3px 0;
+	color:rgba(210, 25, 16, 0.66);
+}
+
+#contact-img p{
+	margin-top:150px;
+	text-align: center;
+	color:black;
+	font-size:30px;
+	font-weight:bold;
+	font-family:Lobster;
+}
+
+#con-form{
+	margin-top: 20px;
+	
+}
+
+#con-form label{
+    color:rgba(210, 25, 16, 0.66);
+    background-color: rgba(215, 215, 139, 0.35);
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 3px;
+    padding:5px 5px;
+    border-radius:5px;
+    width:70%;
+}
+
+#con-form input{
+    width:70%;
+    padding-left:6px;
+    padding:3px 0;
+    border:1px solid white;
+}
+
+#con-form textarea{
+    padding-left:6px;
+    border:1px solid white;
+}
+
+#con-form button{
+	width:70%;
+	background-color: white;
+	color:rgba(210, 25, 16, 0.66);
+	border-radius:3px;
+	font-size: 18px;
+    font-weight: bold;
+    border:1px solid white;
+}
+
+@media(max-width:800px){
+	#contact{
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.about{
+		flex-wrap:wrap;
+	}
+
+	.about-title{
+	width:80%;
+	
+    }
+
+    .about-img{
+    	width:600px;
+    }
+
+}
+
+@media(max-width:700px){
+	#contact{
+		flex-wrap: wrap;
+	}
+}
+
+@media(max-width:500px){
+   #contact-img{
+   	height:500px;
+   }
+
+    .about-img{
+    	width:400px;
+    	height:400px;
+    }
+
+    .about-title h2{
+	margin-top:20px;
+	}
+
+	.about-title p{
+	margin-top:40px;
+	padding-bottom:5px;
+	}
+	.about-title h3{
+	margin-top:20px;
+	text-align:center;
+	}
+
+.about-title i{
+    margin:10px;
+    font-size: 20px;
+	}
+
+}
+
+/*contact section ends*/
+
+.msg{
+	background-color: rgba(215, 215, 139, 0.35);
+	margin-top: 20px;
+}
+
+.msg ul li{
+  color:rgba(210, 25, 16, 0.66);
+}
+
+.foot{
+	background-color:rgba(215, 215, 139, 0.48);;
+	height:50px;
+	align-items: center;
+}
+
+.foot p{
+   	text-align:center;
+   	color:rgba(210, 25, 16, 0.66);
+   	font-size: 16px;
+   	padding-top: 10px;
+}
